@@ -22,7 +22,7 @@ Para usar el proyecto ejecute
 
 ## Ver el proyecto online
 
-[Entrenamiento Corso](https://nextgen-ai-2025.netlify.app/)
+[NextGen AI 2025](https://nextgen-ai-2025.netlify.app/)
 
 
 ## Licencia
