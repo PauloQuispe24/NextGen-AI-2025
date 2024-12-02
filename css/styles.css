@@ -28,6 +28,22 @@ header .banner-text p {
 }
 
 
+#bienvenida h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+#bienvenida p {
+    color: #555;
+}
+
+#bienvenida .carousel-inner img {
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+
 footer {
     font-size: 14.4px;
 }
