@@ -1,94 +1,155 @@
+.navbar {
+    padding: 18px 0;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+  color: #c3a6ff;
+}
+
+.navbar-dark .nav-link {
+  color: #ddd;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #9c88ff;
+}
+
+.navbar .btn-primary {
+  background: #6a4ebc;
+  border-color: #6a4ebc;
+  animation: btnScale 2s ease-in-out infinite;
+}
+
+@keyframes btnScale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 header .carousel-item img {
-    height: calc(100vh - 56px);
-    object-fit: cover;
+  height: calc(100vh - 56px);
+  object-fit: cover;
 }
 
 header .carousel-caption {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(36, 24, 56, 0.6);
+  z-index: 1;
 }
 
 header .banner-text {
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    max-width: 700px;
-    text-align: center;
+  background: rgba(25, 15, 39, 0.8);
+  color: #fff;
+  max-width: 700px;
+  text-align: center;
+  border: 1px solid #6a4ebc;
 }
 
 header .banner-text h1 {
-    font-size: 48px;
+  font-size: 3rem;
+  color: #d3b9ff;
 }
 
 header .banner-text p {
-    font-size: 20px;
+  font-size: 1.25rem;
+  color: #e9d8ff;
 }
 
+header .btn-primary {
+  background: #6a4ebc;
+  border-color: #6a4ebc;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+header .btn-primary:hover {
+  background: #7b5edc;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #9c88ff;
+}
+
+header .btn-outline-light {
+  border-color: #9c88ff;
+  color: #9c88ff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+header .btn-outline-light:hover {
+  background: #9c88ff;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #9c88ff;
+}
 
 #bienvenida h2 {
-    color: #333;
-    font-weight: bold;
+  color: #333;
+  font-weight: bold;
 }
 
 #bienvenida p {
-    color: #555;
+  color: #555;
 }
 
 #bienvenida .carousel-inner img {
-    border-radius: 10px;
-    object-fit: cover;
-    max-height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: 400px;
 }
 
-
 #agenda h2 {
-    font-weight: bold;
-    color: #333;
+  font-weight: bold;
+  color: #333;
 }
 
 #agenda .nav-tabs .nav-link {
-    color: #555;
-    font-weight: bold;
+  color: #555;
+  font-weight: bold;
 }
 
 #agenda .nav-tabs .nav-link.active {
-    background-color: #0d6efd;
-    color: #fff;
+  background-color: #0d6efd;
+  color: #fff;
 }
 
-#agenda table th, #agenda table td {
-    vertical-align: middle;
-    text-align: center;
+#agenda table th,
+#agenda table td {
+  vertical-align: middle;
+  text-align: center;
 }
-
 
 #testimonios img {
-    width: 100px;
+  width: 100px;
 }
 
-
 footer {
-    font-size: 14.4px;
+  font-size: 0.9rem;
 }
 
 footer a {
-    color: #f8f9fa;
-    transition: color 0.3s ease-in-out;
+  color: #f8f9fa;
+  transition: color 0.3s ease-in-out;
 }
 
 footer a:hover {
-    color: #007bff;
+  color: #007bff;
 }
 
 footer .fab {
-    font-size: 24px;
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 footer .fab:hover {
-    transform: scale(1.2);
-    color: #007bff;
+  transform: scale(1.2);
+  color: #007bff;
 }
