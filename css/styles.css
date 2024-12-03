@@ -1,5 +1,5 @@
 .navbar {
-    padding: 18px 0;
+  padding: 18px 0;
 }
 
 .navbar-dark .navbar-brand {
@@ -23,15 +23,15 @@
 }
 
 @keyframes btnScale {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 header .carousel-item img {
@@ -91,19 +91,54 @@ header .btn-outline-light:hover {
   box-shadow: 0 0 10px #9c88ff;
 }
 
+#bienvenida {
+  background: linear-gradient(145deg, #2d1a40, #3b2756);
+  color: #e9d8ff;
+}
+
 #bienvenida h2 {
-  color: #333;
-  font-weight: bold;
+  color: #c3a6ff;
+  text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
 }
 
 #bienvenida p {
-  color: #555;
+  color: #ddd;
+  font-size: 1.2rem;
 }
 
 #bienvenida .carousel-inner img {
   border-radius: 10px;
   object-fit: cover;
   max-height: 400px;
+  filter: brightness(90%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#bienvenida .carousel-inner img:hover {
+  filter: brightness(100%);
+  transform: scale(1.05);
+}
+
+#bienvenida .carousel-control-prev-icon,
+#bienvenida .carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+#bienvenida .carousel-control-prev-icon:hover,
+#bienvenida .carousel-control-next-icon:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#bienvenida .carousel-control-prev,
+#bienvenida .carousel-control-next {
+  transition: transform 0.3s ease;
+}
+
+#bienvenida .carousel-control-prev:hover,
+#bienvenida .carousel-control-next:hover {
+  transform: scale(1.1);
 }
 
 #agenda h2 {
