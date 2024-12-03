@@ -521,9 +521,99 @@
         </div>
       </section>
 
-      <section>
-        <h2 id="registrarse" class="my-5">Registrarse para NextGen AI 2025</h2>
+      <section id="registrarse" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4">Regístrate para Asistir</h2>
+          <p class="text-center lead mb-5">
+            Completa el formulario a continuación para ser parte de NextGen AI
+            2025. ¡No te pierdas esta oportunidad de aprender y conectar con
+            expertos en IA!
+          </p>
+          <form>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="nombre" class="form-label"
+                  >Nombre Completo <span class="text-danger">*</span></label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  placeholder="Escribe tu nombre"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="correo" class="form-label"
+                  >Correo Electrónico <span class="text-danger">*</span></label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="correo"
+                  placeholder="tucorreo@ejemplo.com"
+                  autocomplete="off"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="pais" class="form-label">País (Opcional)</label>
+                <select class="form-select" id="pais">
+                  <option value="">Selecciona tu país</option>
+                  <option value="peru">Perú</option>
+                  <option value="mexico">México</option>
+                  <option value="argentina">Argentina</option>
+                  <option value="colombia">Colombia</option>
+                  <option value="otros">Otros</option>
+                </select>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="ocupacion" class="form-label"
+                  >Ocupación/Industria (Opcional)</label
+                >
+                <select class="form-select" id="ocupacion">
+                  <option value="">Selecciona tu industria</option>
+                  <option value="desarrollador">Desarrollador</option>
+                  <option value="ingenieria">Ingeniería</option>
+                  <option value="educacion">Educación</option>
+                  <option value="otros">Otros</option>
+                </select>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="motivacion" class="form-label"
+                >Motivación para Asistir (Opcional)</label
+              >
+              <textarea
+                class="form-control"
+                id="motivacion"
+                rows="4"
+                placeholder="Cuéntanos por qué te interesa este evento"
+              ></textarea>
+            </div>
+            <div class="form-check mb-4">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="consentimiento"
+                required
+              />
+              <label class="form-check-label" for="consentimiento">
+                Acepto recibir noticias y actualizaciones sobre el evento.
+              </label>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg">
+                Registrarme
+              </button>
+            </div>
+          </form>
+        </div>
       </section>
+
       <section>
         <h2 id="conocenos" class="my-5">Conoce a NextGen Systems</h2>
       </section>
