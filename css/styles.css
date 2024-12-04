@@ -235,8 +235,73 @@ header .btn-outline-light:hover {
   color: #6f42c1;
 }
 
+#testimonios {
+  background: linear-gradient(145deg, #1e1e2f, #292940);
+}
+
+#testimonios h2 {
+  color: #c3a6ff;
+  text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
+}
+
+#testimonios p {
+  color: #f8f9fa;
+}
+
 #testimonios img {
   width: 100px;
+  height: 100px;
+  border: 3px solid #6f42c1;
+  box-shadow: 0 4px 10px rgba(111, 66, 193, 0.5);
+  transition: transform 0.3s ease;
+}
+
+#testimonios img:hover {
+  transform: scale(1.1);
+}
+
+#testimonios h5 {
+  color: #c3a6ff;
+  font-weight: bold;
+}
+
+#testimonios p.text-muted {
+  color: #aaa;
+}
+
+#testimonios .fst-italic {
+  color: #e9d8ff;
+  font-size: 1rem;
+}
+
+#testimonios .carousel-control-prev-icon,
+#testimonios .carousel-control-next-icon {
+  background-color: #6f42c1;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 4px 10px rgba(111, 66, 193, 0.5);
+}
+
+#testimonios .carousel-control-prev-icon:hover,
+#testimonios .carousel-control-next-icon:hover {
+  background-color: #c3a6ff;
+}
+
+#testimonios .carousel-indicators button {
+  background-color: #6f42c1;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  transition: background-color 0.3s ease;
+}
+
+#testimonios .carousel-indicators .active {
+  background-color: #c3a6ff;
+}
+
+#testimonios .carousel-indicators button:hover {
+  background-color: #c3a6ff;
 }
 
 footer {
