@@ -1,5 +1,7 @@
+/* Navbar */
 .navbar {
   padding: 18px 0;
+  box-shadow: 0 0 10px rgb(155, 102, 255);
 }
 
 .navbar-dark .navbar-brand {
@@ -13,7 +15,8 @@
 }
 
 .navbar-dark .nav-link:hover {
-  color: #9c88ff;
+  color: #c3a6ff;
+  text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
 }
 
 .navbar .btn-primary {
@@ -24,16 +27,18 @@
 
 @keyframes btnScale {
   0% {
-    transform: scale(1);
+    transform: scale(0.9);
   }
   50% {
     transform: scale(1.1);
   }
   100% {
-    transform: scale(1);
+    transform: scale(0.9);
   }
 }
+/* Navbar */
 
+/* Header */
 header .carousel-item img {
   height: calc(100vh - 76px);
   object-fit: cover;
@@ -90,10 +95,13 @@ header .btn-outline-light:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px #9c88ff;
 }
+/* Header */
 
+/* Sección de Bienvenida */
 #bienvenida {
   background: linear-gradient(145deg, #2d1a40, #3b2756);
   color: #e9d8ff;
+  padding: 110px 0 100px 0;
 }
 
 #bienvenida h2 {
@@ -140,15 +148,22 @@ header .btn-outline-light:hover {
 #bienvenida .carousel-control-next:hover {
   transform: scale(1.1);
 }
+/* Sección de Bienvenida */
 
+/* Sección de la Agenda */
 #agenda {
   background: linear-gradient(145deg, #1e1e2f, #292940);
   color: #e9d8ff;
+  padding: 110px 0 100px 0;
 }
 
 #agenda h2 {
   color: #c3a6ff;
   text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
+}
+
+#agenda p {
+  color: #ddd;
 }
 
 #agenda .nav-tabs .nav-link {
@@ -184,9 +199,12 @@ header .btn-outline-light:hover {
 #agenda table tbody tr:hover {
   --bs-table-bg: #2d2d40;
 }
+/* Sección de la Agenda */
 
+/* Sección de Ponentes */
 #ponentes {
   background: linear-gradient(145deg, #2d1a40, #3b2756);
+  padding: 110px 0 100px 0;
 }
 
 #ponentes h2 {
@@ -234,9 +252,12 @@ header .btn-outline-light:hover {
   font-style: italic;
   color: #6f42c1;
 }
+/* Sección de Ponentes */
 
+/* Sección de Testimonios */
 #testimonios {
   background: linear-gradient(145deg, #1e1e2f, #292940);
+  padding: 110px 0 100px 0;
 }
 
 #testimonios h2 {
@@ -303,9 +324,12 @@ header .btn-outline-light:hover {
 #testimonios .carousel-indicators button:hover {
   background-color: #c3a6ff;
 }
+/* Sección de Testimonios */
 
+/* Sección del Formulario de Registro */
 #registrarse {
   background: linear-gradient(145deg, #2d1a40, #3b2756);
+  padding: 110px 0 100px 0;
 }
 
 #registrarse h2 {
@@ -364,7 +388,7 @@ header .btn-outline-light:hover {
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
-  box-shadow: 0 4px 10px rgba(111, 66, 193, 0.5); /* Sombra */
+  box-shadow: 0 4px 10px rgba(111, 66, 193, 0.5);
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
@@ -377,9 +401,12 @@ header .btn-outline-light:hover {
   background-color: #9f31c4;
   transform: scale(1);
 }
+/* Sección del Formulario de Registro */
 
+/* Sección de Información de la Empresa */
 #conocenos {
-  background: linear-gradient( 145deg, #1e1e2f, #292940);
+  background: linear-gradient(145deg, #1e1e2f, #292940);
+  padding: 110px 0 100px 0;
 }
 
 #conocenos h2 {
@@ -422,9 +449,12 @@ header .btn-outline-light:hover {
 #conocenos .card:hover i {
   color: #fff;
 }
+/* Sección de Información de la Empresa */
 
+/* Footer */
 footer {
   font-size: 0.9rem;
+  box-shadow: 0 0 10px rgb(155, 102, 255);
 }
 
 footer a {
@@ -433,7 +463,8 @@ footer a {
 }
 
 footer a:hover {
-  color: #007bff;
+  color: #c3a6ff;
+  text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
 }
 
 footer .fab {
@@ -443,5 +474,7 @@ footer .fab {
 
 footer .fab:hover {
   transform: scale(1.2);
-  color: #007bff;
+  color: #c3a6ff;
+  text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
 }
+/* Footer */
