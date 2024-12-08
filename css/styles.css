@@ -22,6 +22,7 @@
 .navbar .btn-primary {
   background: #6a4ebc;
   border-color: #6a4ebc;
+  overflow: hidden;
   animation: btnScale 2s ease-in-out infinite;
 }
 
@@ -31,9 +32,43 @@
   }
   50% {
     transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(155, 102, 255);
   }
   100% {
     transform: scale(0.9);
+  }
+}
+
+.navbar .btn-primary .brillo {
+  background-color: rgba(227, 212, 255, 90%);
+  position: absolute;
+  top: calc(50% - 9px);
+  transform: rotate(60deg);
+  width: 80px;
+  height: 18px;
+  animation: btnBrillo 4s ease-in-out infinite;
+}
+
+@keyframes btnBrillo {
+  0% {
+    left: calc(0% - 80px);
+  }
+  10% {
+    left: calc(100%);
+    top: calc(50% - 9px);
+  }
+  11% {
+    top: 80px;
+  }
+  89% {
+    top: 80px;
+  }
+  90% {
+    left: calc(0% - 80px);
+    top: calc(50% - 9px);
+  }
+  100% {
+    left: calc(100%);
   }
 }
 /* Navbar */
