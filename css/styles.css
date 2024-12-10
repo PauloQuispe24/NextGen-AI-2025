@@ -29,18 +29,21 @@
 @keyframes btnScale {
   0% {
     transform: scale(0.9);
+    background: #6a4ebc;
   }
   50% {
     transform: scale(1.1);
+    background: #937bdd;
     box-shadow: 0 0 10px rgb(155, 102, 255);
   }
   100% {
+    background: #6a4ebc;
     transform: scale(0.9);
   }
 }
 
 .navbar .btn-primary .brillo {
-  background-color: rgba(227, 212, 255, 90%);
+  background-color: rgba(255, 255, 255, 90%);
   position: absolute;
   top: calc(50% - 9px);
   transform: rotate(60deg);
