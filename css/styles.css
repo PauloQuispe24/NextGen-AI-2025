@@ -91,12 +91,50 @@ header .carousel-caption {
   z-index: 1;
 }
 
+header .boxLight {
+  position: relative;
+  border-radius: 6px;
+  padding: 4px;
+  overflow: hidden;
+}
+
+header .boxLight::before,
+header .boxLight::after {
+  background: linear-gradient(0deg, transparent, #62a8ff, #62a8ff);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transform-origin: bottom right;
+}
+
+header .boxLight::before {
+  animation: Light 6s linear infinite;
+}
+
+header .boxLight::after {
+  animation: Light 6s linear -3s infinite;
+}
+
+@keyframes Light {
+  0% {
+      transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
+  }
+
+  100% {
+      transform: translateX(-50%) translateY(-50%) rotateZ(360deg);
+  }
+}
+
 header .banner-text {
-  background: rgba(25, 15, 39, 0.8);
+  position: relative;
+  background: rgb(25, 15, 39);
   color: #fff;
   max-width: 700px;
   text-align: center;
-  border: 1px solid #6a4ebc;
+  z-index: 1;
 }
 
 header .banner-text h1 {
@@ -433,7 +471,6 @@ header .btn-outline-light:hover {
 #testimonios img {
   width: 100px;
   height: 100px;
-  border: 3px solid #6f42c1;
   box-shadow: 0 4px 10px rgba(111, 66, 193, 0.5);
   transition: transform 0.3s ease;
 }
