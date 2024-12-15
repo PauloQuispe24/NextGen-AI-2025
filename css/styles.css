@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* Navbar */
 .navbar {
   padding: 18px 0;
@@ -120,11 +124,11 @@ header .boxLight::after {
 
 @keyframes Light {
   0% {
-      transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
+    transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
   }
 
   100% {
-      transform: translateX(-50%) translateY(-50%) rotateZ(360deg);
+    transform: translateX(-50%) translateY(-50%) rotateZ(360deg);
   }
 }
 
@@ -138,6 +142,7 @@ header .banner-text {
 }
 
 header .banner-text h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 3rem;
   color: #d3b9ff;
 }
@@ -201,7 +206,6 @@ header .btn-outline-light:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 50px;
   padding-bottom: 40px;
 }
@@ -209,6 +213,7 @@ header .btn-outline-light:hover {
 #bienvenida .headings h2 {
   color: #c3a6ff;
   margin-bottom: 0;
+  text-align: center;
   text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
   animation: textHeading 2s infinite ease-in-out;
 }
@@ -353,6 +358,7 @@ header .btn-outline-light:hover {
 #agenda h2 {
   color: #c3a6ff;
   margin-bottom: 0;
+  text-align: center;
   text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
   animation: textHeading 2s infinite ease-in-out;
 }
@@ -405,6 +411,7 @@ header .btn-outline-light:hover {
 #ponentes h2 {
   color: #c3a6ff;
   margin-bottom: 0;
+  text-align: center;
   text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
   animation: textHeading 2s infinite ease-in-out;
 }
@@ -460,6 +467,7 @@ header .btn-outline-light:hover {
 #testimonios h2 {
   color: #c3a6ff;
   margin-bottom: 0;
+  text-align: center;
   text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
   animation: textHeading 2s infinite ease-in-out;
 }
@@ -533,6 +541,7 @@ header .btn-outline-light:hover {
 #registrarse h2 {
   color: #c3a6ff;
   margin-bottom: 0;
+  text-align: center;
   text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
   animation: textHeading 2s infinite ease-in-out;
 }
@@ -612,6 +621,7 @@ header .btn-outline-light:hover {
 #conocenos h2 {
   color: #c3a6ff;
   margin-bottom: 0;
+  text-align: center;
   text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
   animation: textHeading 2s infinite ease-in-out;
 }
@@ -680,3 +690,9 @@ footer .fab:hover {
   text-shadow: 0 0 10px rgba(155, 102, 255, 0.7);
 }
 /* Footer */
+
+@media (max-width: 575px) {
+  .headings .cube {
+    display: none;
+  }
+}
