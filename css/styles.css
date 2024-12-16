@@ -422,7 +422,7 @@ header .btn-outline-light:hover {
 }
 
 #ponentes .card {
-  border: none;
+  border: 1px solid #6f42c1;
   background: linear-gradient(145deg, #d9d9f3, #ffffff);
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -438,23 +438,29 @@ header .btn-outline-light:hover {
   border-top-right-radius: 15px;
 }
 
+#ponentes .card-body {
+  background-color: #2d2d40;
+}
+
 #ponentes .card-title {
   font-weight: bold;
-  color: #2a6ab9;
+  color: #a6d9ff;
 }
 
 #ponentes .card-text {
-  color: #555;
+  color: #ddd;
 }
 
 #ponentes .card-footer {
-  background-color: transparent;
+  background-color: #2d2d40;
   border-top: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #ponentes .card-footer small {
   font-style: italic;
-  color: #6f42c1;
+  color: #ddd;
 }
 /* Sección de Ponentes */
 
